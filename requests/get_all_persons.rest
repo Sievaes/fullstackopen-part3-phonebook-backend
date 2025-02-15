@@ -1,2 +1,1 @@
-DELETE http://localhost:3005/api/persons/3
-
+GET https://fullstackopen-part3-phonebook-backend-n80p.onrender.com/persons

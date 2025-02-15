@@ -3,6 +3,7 @@ const morgan = require("morgan"); // "import" Morgan middleware
 const cors = require("cors");
 const app = express(); //Assign express to app
 
+app.use(express.static("dist"));
 app.use(cors());
 app.use(express.json()); // Add this line to parse JSON payloads (request.body)
 
